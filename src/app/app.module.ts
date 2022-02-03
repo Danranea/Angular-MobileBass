@@ -18,13 +18,15 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { DeleteComponent } from './components/delete/delete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MeetingListComponent,
-    MeetingFormComponent
+    MeetingFormComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
